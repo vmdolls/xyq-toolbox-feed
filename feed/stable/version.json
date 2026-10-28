@@ -1,0 +1,43 @@
+{
+  "appId": "com.nanshan.xyqtoolbox",
+  "channel": "stable",
+  "updatedAt": "2026-10-28T20:54:24.418Z",
+  "latest": {
+    "version": "0.3.64",
+    "edition": "standard",
+    "channel": "stable",
+    "releasedAt": "2026-10-28T20:54:24.418Z",
+    "mandatory": false,
+    "minShell": "0.3.0",
+    "notes": [
+      "侧栏新增检查更新入口",
+      "支持多源更新回退"
+    ],
+    "layers": {
+      "overlay": {
+        "format": "zip",
+        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.64-overlay.zip",
+        "urls": [
+          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.64-overlay.zip",
+          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.64-overlay.zip"
+        ],
+        "size": 1463932,
+        "sha256": "f2943f500efc633e7dea6ca00256d65d0fd3e8c3ede38119342f23f6a785e255"
+      }
+    }
+  },
+  "history": [
+    {
+      "version": "0.3.63",
+      "size": 1462732,
+      "sha256": "32bbfd9bf0f99feb578016641afc670c9174c7dee8a3fc1d4945d42ca4642277",
+      "at": "2026-10-28T19:54:54.049Z"
+    },
+    {
+      "version": "0.3.64",
+      "size": 1463932,
+      "sha256": "f2943f500efc633e7dea6ca00256d65d0fd3e8c3ede38119342f23f6a785e255",
+      "at": "2026-10-28T20:54:24.418Z"
+    }
+  ]
+}
