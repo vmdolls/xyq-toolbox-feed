@@ -19,6 +19,7 @@
         "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.64-overlay.zip",
         "urls": [
           "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.64-overlay.zip",
+          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.64-overlay.zip",
           "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.64-overlay.zip",
           "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.64-overlay.zip"
         ],
