@@ -1,0 +1,9 @@
+# version.json 必须每次向源站校验，避免 CDN 缓存导致发版不生效
+/stable/version.json
+  Cache-Control: no-cache, must-revalidate
+  Access-Control-Allow-Origin: *
+
+# 安装包内容不变即永久缓存，减少回源流量
+/stable/pkg/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
