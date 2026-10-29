@@ -1,30 +1,29 @@
 {
   "appId": "com.nanshan.xyqtoolbox",
   "channel": "stable",
-  "updatedAt": "2026-10-28T20:54:24.418Z",
+  "updatedAt": "2026-10-29T08:52:26.532Z",
   "latest": {
-    "version": "0.3.64",
+    "version": "0.3.65",
     "edition": "standard",
     "channel": "stable",
-    "releasedAt": "2026-10-28T20:54:24.418Z",
+    "releasedAt": "2026-10-29T08:52:26.532Z",
     "mandatory": false,
     "minShell": "0.3.0",
     "notes": [
-      "侧栏新增检查更新入口",
-      "支持多源更新回退"
+      "修复物价表中文输入时输入框失焦的问题"
     ],
     "layers": {
       "overlay": {
         "format": "zip",
-        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.64-overlay.zip",
+        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.65-overlay.zip",
         "urls": [
-          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.64-overlay.zip",
-          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.64-overlay.zip",
-          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.64-overlay.zip",
-          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.64-overlay.zip"
+          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.65-overlay.zip",
+          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.65-overlay.zip",
+          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.65-overlay.zip",
+          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.65-overlay.zip"
         ],
-        "size": 1463932,
-        "sha256": "f2943f500efc633e7dea6ca00256d65d0fd3e8c3ede38119342f23f6a785e255"
+        "size": 1463927,
+        "sha256": "d17fdb9bf23b10318f8f4f59f11ca45aa5e83fac4cab78d0db478e804863818e"
       }
     }
   },
@@ -40,6 +39,12 @@
       "size": 1463932,
       "sha256": "f2943f500efc633e7dea6ca00256d65d0fd3e8c3ede38119342f23f6a785e255",
       "at": "2026-10-28T20:54:24.418Z"
+    },
+    {
+      "version": "0.3.65",
+      "size": 1463927,
+      "sha256": "d17fdb9bf23b10318f8f4f59f11ca45aa5e83fac4cab78d0db478e804863818e",
+      "at": "2026-10-29T08:52:26.532Z"
     }
   ]
 }
