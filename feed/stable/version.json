@@ -1,31 +1,32 @@
 {
   "appId": "com.nanshan.xyqtoolbox",
   "channel": "stable",
-  "updatedAt": "2026-10-30T04:44:49.855Z",
+  "updatedAt": "2026-10-30T14:07:59.136Z",
   "latest": {
-    "version": "0.3.68",
+    "version": "0.3.75",
     "edition": "standard",
     "channel": "stable",
-    "releasedAt": "2026-10-30T04:44:49.855Z",
+    "releasedAt": "2026-10-30T14:07:59.136Z",
     "mandatory": false,
     "minShell": "0.3.0",
     "notes": [
-      "装备熔炼封顶规则修正：专用装备熔炼封顶取同等级非专用人造强化上限，超出即拦截",
-      "修复更新包在文件被占用时反复失败（EPERM）：界面资源改为原地覆盖并加入句柄释放重试",
-      "更新器版本判定改为 overlay 与 asar 取较高者，避免装完仍提示可更新"
+      "新增「天罡地煞攻略」板块：天罡篇/地煞篇 × 1-7 星，含属性门槛、A+B 工位、特技搭配、队伍与宝宝配置",
+      "装备属性页整合玉魄与灵饰段位数据，天罡地煞页移除冗余迁移面板",
+      "修复天罡地煞攻略页白屏：星级数据越界导致渲染异常，已加错误边界保护",
+      "修复天罡地煞攻略页来源徽标漂移遮挡标题栏按钮：徽标改为行内展示"
     ],
     "layers": {
       "asar": {
         "format": "asar",
-        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.68-asar.asar",
+        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.75-asar.asar",
         "urls": [
-          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.68-asar.asar",
-          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.68-asar.asar",
-          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.68-asar.asar",
-          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.68-asar.asar"
+          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.75-asar.asar",
+          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.75-asar.asar",
+          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.75-asar.asar",
+          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.75-asar.asar"
         ],
-        "size": 4719258,
-        "sha256": "d9fed8acee23efeab091a27dc7df2cb9db7058aaba8b18e1ae6552be9321ddea"
+        "size": 4792189,
+        "sha256": "18cfdaa75bd62fb38d7859e9e2bc96d6792f49bc802c8573aa19b626b0ecd872"
       }
     }
   },
@@ -60,6 +61,13 @@
       "size": 4719258,
       "sha256": "d9fed8acee23efeab091a27dc7df2cb9db7058aaba8b18e1ae6552be9321ddea",
       "at": "2026-10-30T04:44:49.855Z"
+    },
+    {
+      "version": "0.3.75",
+      "layer": "asar",
+      "size": 4792189,
+      "sha256": "18cfdaa75bd62fb38d7859e9e2bc96d6792f49bc802c8573aa19b626b0ecd872",
+      "at": "2026-10-30T14:07:59.136Z"
     }
   ]
 }
