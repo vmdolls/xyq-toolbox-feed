@@ -1,30 +1,31 @@
 {
   "appId": "com.nanshan.xyqtoolbox",
   "channel": "stable",
-  "updatedAt": "2026-10-29T12:05:15.128Z",
+  "updatedAt": "2026-10-30T04:44:49.855Z",
   "latest": {
-    "version": "0.3.67",
+    "version": "0.3.68",
     "edition": "standard",
     "channel": "stable",
-    "releasedAt": "2026-10-29T12:05:15.128Z",
+    "releasedAt": "2026-10-30T04:44:49.855Z",
     "mandatory": false,
     "minShell": "0.3.0",
     "notes": [
-      "浮窗记账本支持直接新增物品建档，无需回主界面录入",
-      "修复日间模式文字阴影范围过大影响可读性"
+      "装备熔炼封顶规则修正：专用装备熔炼封顶取同等级非专用人造强化上限，超出即拦截",
+      "修复更新包在文件被占用时反复失败（EPERM）：界面资源改为原地覆盖并加入句柄释放重试",
+      "更新器版本判定改为 overlay 与 asar 取较高者，避免装完仍提示可更新"
     ],
     "layers": {
-      "overlay": {
-        "format": "zip",
-        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.67-overlay.zip",
+      "asar": {
+        "format": "asar",
+        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.68-asar.asar",
         "urls": [
-          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.67-overlay.zip",
-          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.67-overlay.zip",
-          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.67-overlay.zip",
-          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.67-overlay.zip"
+          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.68-asar.asar",
+          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.68-asar.asar",
+          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.68-asar.asar",
+          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.68-asar.asar"
         ],
-        "size": 1465446,
-        "sha256": "f6197cd11a6a291b7039b36b958a7da4075b2066b7868363d2500f2c3b36868d"
+        "size": 4719258,
+        "sha256": "d9fed8acee23efeab091a27dc7df2cb9db7058aaba8b18e1ae6552be9321ddea"
       }
     }
   },
@@ -52,6 +53,13 @@
       "size": 1465446,
       "sha256": "f6197cd11a6a291b7039b36b958a7da4075b2066b7868363d2500f2c3b36868d",
       "at": "2026-10-29T12:05:15.128Z"
+    },
+    {
+      "version": "0.3.68",
+      "layer": "asar",
+      "size": 4719258,
+      "sha256": "d9fed8acee23efeab091a27dc7df2cb9db7058aaba8b18e1ae6552be9321ddea",
+      "at": "2026-10-30T04:44:49.855Z"
     }
   ]
 }
