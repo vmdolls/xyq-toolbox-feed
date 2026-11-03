@@ -1,32 +1,32 @@
 {
   "appId": "com.nanshan.xyqtoolbox",
   "channel": "stable",
-  "updatedAt": "2026-10-31T09:27:07Z",
+  "updatedAt": "2026-11-03T03:00:42Z",
   "latest": {
-    "version": "0.3.84",
+    "version": "0.3.85",
     "edition": "standard",
     "channel": "stable",
-    "releasedAt": "2026-10-31T09:27:07Z",
+    "releasedAt": "2026-11-03T03:00:42Z",
     "mandatory": false,
     "minShell": "0.3.0",
     "notes": [
-      "浮窗活动提示新增「下一个」活动：当前活动进行中时，下方直接显示紧接着的下一场（名称 + 开始时间）",
-      "当日暂无进行中活动但有后续场次时，同样提示下一场；与主行提示同一场次时不重复显示",
-      "活动提示条底部新增口径说明「活动时间以游戏内活动为准」",
-      "活动时间按公开资料校正：巧诱妖灵 周四15:00-17:00、皇宫飞贼 周一至周五12:00-14:00、文韵墨香 每月第二周周日15:00-17:00"
+      "公式速查页新增门派维度：「境界与师门技能上限」区加入门派下拉，龙宫师门技能逐条列出（技能名 / 属性 / 上限加成 / 公式 / 精度）",
+      "龙宫师门技能系数校准入库：九龙诀 ⌊S²/225⌋+⌊S/2⌋、逆鳞等按表取值，九龙诀与旧 224/225 口径冲突消解，统一按 225 计算",
+      "破浪诀、游龙术为单点锚定，仅 150 级精确；其余门派系数待补录，未录入门派按 0 计并在页面注明",
+      "多门派框架铺设完成，后续补录只需往 SCHOOL_SKILL_TABLE 增项，公式页自动出现对应门派表"
     ],
     "layers": {
       "asar": {
         "format": "asar",
-        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.84-asar.asar",
+        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.85-asar.asar",
         "urls": [
-          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.84-asar.asar",
-          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.84-asar.asar",
-          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.84-asar.asar",
-          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.84-asar.asar"
+          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.85-asar.asar",
+          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.85-asar.asar",
+          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.85-asar.asar",
+          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.85-asar.asar"
         ],
-        "size": 4851041,
-        "sha256": "471a52e1c36e7b8515e20b540e278d70ffff8890b728daa9961b946bdd0c07e9"
+        "size": 5010512,
+        "sha256": "3084cabfe67cff75c3e32fe0b0fa67b028b89d7dc60b8d8f0b80c4412eb281a5"
       }
     }
   },
@@ -75,6 +75,13 @@
       "size": 4851041,
       "sha256": "471a52e1c36e7b8515e20b540e278d70ffff8890b728daa9961b946bdd0c07e9",
       "at": "2026-10-31T09:27:07Z"
+    },
+    {
+      "version": "0.3.85",
+      "layer": "asar",
+      "size": 5010512,
+      "sha256": "3084cabfe67cff75c3e32fe0b0fa67b028b89d7dc60b8d8f0b80c4412eb281a5",
+      "at": "2026-11-03T03:00:42Z"
     }
   ]
 }
