@@ -1,32 +1,36 @@
 {
   "appId": "com.nanshan.xyqtoolbox",
   "channel": "stable",
-  "updatedAt": "2026-11-03T03:00:42Z",
+  "updatedAt": "2026-11-06T04:19:11Z",
   "latest": {
-    "version": "0.3.85",
+    "version": "0.3.142",
     "edition": "standard",
     "channel": "stable",
-    "releasedAt": "2026-11-03T03:00:42Z",
+    "releasedAt": "2026-11-06T04:19:11Z",
     "mandatory": false,
     "minShell": "0.3.0",
     "notes": [
-      "公式速查页新增门派维度：「境界与师门技能上限」区加入门派下拉，龙宫师门技能逐条列出（技能名 / 属性 / 上限加成 / 公式 / 精度）",
-      "龙宫师门技能系数校准入库：九龙诀 ⌊S²/225⌋+⌊S/2⌋、逆鳞等按表取值，九龙诀与旧 224/225 口径冲突消解，统一按 225 计算",
-      "破浪诀、游龙术为单点锚定，仅 150 级精确；其余门派系数待补录，未录入门派按 0 计并在页面注明",
-      "多门派框架铺设完成，后续补录只需往 SCHOOL_SKILL_TABLE 增项，公式页自动出现对应门派表"
+      "实用工具新增「每日金价」板块，每日 8:30 / 16:30 / 0:30 三次自动刷新，全站金价自动同步",
+      "每日金价支持「本服金价（我的区服）」，按 手填 > 本服 > 均价 > 100 四级回落取值，作为各工具当日默认价",
+      "数据查询新增生活技能、跑环、召唤兽等 8 类资料页",
+      "新增「三方工具站」收集页，收录 12 个常用站点，替代原外链卡片",
+      "导标旗新增地图视图（长安 / 长寿 / 朱紫 / 傲来底图），内置 18 组 125 点分组",
+      "首页支持拖拽自定义工具顺序，排序本地保存",
+      "合成成本六个板块合并为单一工具，统一移入实用工具",
+      "攻略内容校正：清理重复的「八行书」板块，校正召唤兽数据"
     ],
     "layers": {
       "asar": {
         "format": "asar",
-        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.85-asar.asar",
+        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.142-asar.asar",
         "urls": [
-          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.85-asar.asar",
-          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.85-asar.asar",
-          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.85-asar.asar",
-          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.85-asar.asar"
+          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.142-asar.asar",
+          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.142-asar.asar",
+          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.142-asar.asar",
+          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.142-asar.asar"
         ],
-        "size": 5010512,
-        "sha256": "3084cabfe67cff75c3e32fe0b0fa67b028b89d7dc60b8d8f0b80c4412eb281a5"
+        "size": 9801358,
+        "sha256": "e2ff50f934c919da12ef42490e1971313be8880730be1534bb3794c082eed237"
       }
     }
   },
@@ -82,6 +86,13 @@
       "size": 5010512,
       "sha256": "3084cabfe67cff75c3e32fe0b0fa67b028b89d7dc60b8d8f0b80c4412eb281a5",
       "at": "2026-11-03T03:00:42Z"
+    },
+    {
+      "version": "0.3.142",
+      "layer": "asar",
+      "size": 9801358,
+      "sha256": "e2ff50f934c919da12ef42490e1971313be8880730be1534bb3794c082eed237",
+      "at": "2026-11-06T04:19:11Z"
     }
   ]
 }
