@@ -1,36 +1,32 @@
 {
   "appId": "com.nanshan.xyqtoolbox",
   "channel": "stable",
-  "updatedAt": "2026-11-06T04:19:11Z",
+  "updatedAt": "2026-11-07T18:56:44Z",
   "latest": {
-    "version": "0.3.142",
+    "version": "0.3.144",
     "edition": "standard",
     "channel": "stable",
-    "releasedAt": "2026-11-06T04:19:11Z",
+    "releasedAt": "2026-11-07T18:56:44Z",
     "mandatory": false,
     "minShell": "0.3.0",
     "notes": [
-      "实用工具新增「每日金价」板块，每日 8:30 / 16:30 / 0:30 三次自动刷新，全站金价自动同步",
-      "每日金价支持「本服金价（我的区服）」，按 手填 > 本服 > 均价 > 100 四级回落取值，作为各工具当日默认价",
-      "数据查询新增生活技能、跑环、召唤兽等 8 类资料页",
-      "新增「三方工具站」收集页，收录 12 个常用站点，替代原外链卡片",
-      "导标旗新增地图视图（长安 / 长寿 / 朱紫 / 傲来底图），内置 18 组 125 点分组",
-      "首页支持拖拽自定义工具顺序，排序本地保存",
-      "合成成本六个板块合并为单一工具，统一移入实用工具",
-      "攻略内容校正：清理重复的「八行书」板块，校正召唤兽数据"
+      "服务器大区新增「烟花竞拍价」：每周三 10:00 自动同步转服烟花竞拍价，保留近 8 周",
+      "金价主源改为悟空站公开接口，覆盖 210 个服务器（原 155 个），带区龄与转服状态",
+      "每日金价新增区龄 / 转服状态 / 烟花竞拍价列与筛选",
+      "服务器大区搜索框旁直接显示该服烟花价"
     ],
     "layers": {
       "asar": {
         "format": "asar",
-        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.142-asar.asar",
+        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.144-asar.asar",
         "urls": [
-          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.142-asar.asar",
-          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.142-asar.asar",
-          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.142-asar.asar",
-          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.142-asar.asar"
+          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.144-asar.asar",
+          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.144-asar.asar",
+          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.144-asar.asar",
+          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.144-asar.asar"
         ],
-        "size": 9801358,
-        "sha256": "e2ff50f934c919da12ef42490e1971313be8880730be1534bb3794c082eed237"
+        "size": 9820030,
+        "sha256": "416e5f9248204123bab5ecca6876e399f62da0a8e6345a1cb34626394797c724"
       }
     }
   },
@@ -93,6 +89,13 @@
       "size": 9801358,
       "sha256": "e2ff50f934c919da12ef42490e1971313be8880730be1534bb3794c082eed237",
       "at": "2026-11-06T04:19:11Z"
+    },
+    {
+      "version": "0.3.144",
+      "layer": "asar",
+      "size": 9820030,
+      "sha256": "416e5f9248204123bab5ecca6876e399f62da0a8e6345a1cb34626394797c724",
+      "at": "2026-11-07T18:56:44Z"
     }
   ]
 }
