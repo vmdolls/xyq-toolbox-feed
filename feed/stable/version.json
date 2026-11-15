@@ -1,29 +1,30 @@
 {
   "appId": "com.nanshan.xyqtoolbox",
   "channel": "stable",
-  "updatedAt": "2026-11-15T10:24:54Z",
+  "updatedAt": "2026-11-15T12:57:18Z",
   "latest": {
-    "version": "0.3.145",
+    "version": "0.3.147",
     "edition": "standard",
     "channel": "stable",
-    "releasedAt": "2026-11-15T10:24:54Z",
+    "releasedAt": "2026-11-15T12:57:18Z",
     "mandatory": false,
     "minShell": "0.3.0",
     "notes": [
-      "实用工具新增「日常速查表」：日常/周常排班（可按星期筛选高亮今天）、门派经脉推荐、等级段达标属性、修炼消耗一览（人物/宠物/提上限按今日金价实时折算）、低级内丹点化、平民性价比神通；修复速查表入口点击无响应"
+      "钟灵石合成：合成规则面板按七段列出各段原料需求量，逐级明细新增「本段需求」列",
+      "日常速查表·门派经脉：顶部标注「2026年10月大改后推荐」并附整理口径说明"
     ],
     "layers": {
       "asar": {
         "format": "asar",
-        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.145-asar.asar",
+        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.147-asar.asar",
         "urls": [
-          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.145-asar.asar",
-          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.145-asar.asar",
-          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.145-asar.asar",
-          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.145-asar.asar"
+          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.147-asar.asar",
+          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.147-asar.asar",
+          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.147-asar.asar",
+          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.147-asar.asar"
         ],
-        "size": 9841064,
-        "sha256": "06171962c1c896bb84b7cef2f3f925b7c365f3d227be136b6b3649335fe6d9d6"
+        "size": 9842820,
+        "sha256": "797a9b053fcacffeec5f0967b78c2668072ca547b9949848c7681c8b31273f31"
       }
     }
   },
@@ -100,6 +101,13 @@
       "size": 9841064,
       "sha256": "06171962c1c896bb84b7cef2f3f925b7c365f3d227be136b6b3649335fe6d9d6",
       "at": "2026-11-15T10:24:54Z"
+    },
+    {
+      "version": "0.3.147",
+      "layer": "asar",
+      "size": 9842820,
+      "sha256": "797a9b053fcacffeec5f0967b78c2668072ca547b9949848c7681c8b31273f31",
+      "at": "2026-11-15T12:57:18Z"
     }
   ]
 }
