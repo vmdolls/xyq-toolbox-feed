@@ -1,30 +1,31 @@
 {
   "appId": "com.nanshan.xyqtoolbox",
   "channel": "stable",
-  "updatedAt": "2026-11-15T12:57:18Z",
+  "updatedAt": "2026-11-16T13:03:51Z",
   "latest": {
-    "version": "0.3.147",
+    "version": "0.3.159",
     "edition": "standard",
     "channel": "stable",
-    "releasedAt": "2026-11-15T12:57:18Z",
+    "releasedAt": "2026-11-16T13:03:51Z",
     "mandatory": false,
     "minShell": "0.3.0",
     "notes": [
-      "钟灵石合成：合成规则面板按七段列出各段原料需求量，逐级明细新增「本段需求」列",
-      "日常速查表·门派经脉：顶部标注「2026年10月大改后推荐」并附整理口径说明"
+      "资料库多库改单栏/分组单栏：家具、变身卡、内丹、三药、定向炼药、门派秘方、召唤兽技能",
+      "变身卡详情拆为名称/卡片等级/变化等级/附加技能/附加属性/战斗中使用六列（111条）",
+      "家具按一二级分组单栏展示"
     ],
     "layers": {
       "asar": {
         "format": "asar",
-        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.147-asar.asar",
+        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.159-asar.asar",
         "urls": [
-          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.147-asar.asar",
-          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.147-asar.asar",
-          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.147-asar.asar",
-          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.147-asar.asar"
+          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.159-asar.asar",
+          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.159-asar.asar",
+          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.159-asar.asar",
+          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.159-asar.asar"
         ],
-        "size": 9842820,
-        "sha256": "797a9b053fcacffeec5f0967b78c2668072ca547b9949848c7681c8b31273f31"
+        "size": 9889811,
+        "sha256": "71ac22e28691cb174df79c17a9f63c5116c525e4aab390ecacb6f70572110e38"
       }
     }
   },
@@ -108,6 +109,13 @@
       "size": 9842820,
       "sha256": "797a9b053fcacffeec5f0967b78c2668072ca547b9949848c7681c8b31273f31",
       "at": "2026-11-15T12:57:18Z"
+    },
+    {
+      "version": "0.3.159",
+      "layer": "asar",
+      "size": 9889811,
+      "sha256": "71ac22e28691cb174df79c17a9f63c5116c525e4aab390ecacb6f70572110e38",
+      "at": "2026-11-16T13:03:51Z"
     }
   ]
 }
