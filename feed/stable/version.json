@@ -1,33 +1,31 @@
 {
   "appId": "com.nanshan.xyqtoolbox",
   "channel": "stable",
-  "updatedAt": "2026-11-16T21:02:36Z",
+  "updatedAt": "2026-11-17T23:15:13Z",
   "latest": {
-    "version": "0.3.170",
+    "version": "0.3.171",
     "edition": "standard",
     "channel": "stable",
-    "releasedAt": "2026-11-16T21:02:36Z",
+    "releasedAt": "2026-11-17T23:15:13Z",
     "mandatory": false,
     "minShell": "0.3.0",
     "notes": [
-      "时间中心 hero 重构：缩放不再改变时钟字号，主区独占整行居中，时钟/日期/农历四行中心对齐",
-      "新增农历日期、当前节气、距下一节气天数与节日提示",
-      "修复浅色主题 hero 白字不可见，统一 --tc-* 双主题变量",
-      "修复窗口缩放时日期折行脱节，日期改 nowrap 分段渲染",
-      "召唤兽技能库配图接入（0.3.160 起）"
+      "侧栏新增「收起侧栏」按钮，可折叠为 46px 单字入口，正文可视区随之变宽",
+      "折叠态分类入口底部加主题色细条，悬停加宽，快速识别分组",
+      "折叠状态写入 localStorage，重启后保持上次形态"
     ],
     "layers": {
       "asar": {
         "format": "asar",
-        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.170-asar.asar",
+        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.171-asar.asar",
         "urls": [
-          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.170-asar.asar",
-          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.170-asar.asar",
-          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.170-asar.asar",
-          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.170-asar.asar"
+          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.171-asar.asar",
+          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.171-asar.asar",
+          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.171-asar.asar",
+          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.171-asar.asar"
         ],
-        "size": 11355888,
-        "sha256": "409c41ab8c7564b7ef42b0fb6e50968c45c11614cd437e5f34b28aee98a82582"
+        "size": 11407580,
+        "sha256": "a22b68afd58f8ae32a91bbd594dc89075c1aad6349157a4c876f41bcc1e4a08f"
       }
     }
   },
@@ -125,6 +123,13 @@
       "size": 11355888,
       "sha256": "409c41ab8c7564b7ef42b0fb6e50968c45c11614cd437e5f34b28aee98a82582",
       "at": "2026-11-16T21:02:36Z"
+    },
+    {
+      "version": "0.3.171",
+      "layer": "asar",
+      "size": 11407580,
+      "sha256": "a22b68afd58f8ae32a91bbd594dc89075c1aad6349157a4c876f41bcc1e4a08f",
+      "at": "2026-11-17T23:15:13Z"
     }
   ]
 }
