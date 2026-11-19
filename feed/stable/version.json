@@ -1,32 +1,30 @@
 {
   "appId": "com.nanshan.xyqtoolbox",
   "channel": "stable",
-  "updatedAt": "2026-11-19T12:21:12Z",
+  "updatedAt": "2026-11-19T13:40:15Z",
   "latest": {
-    "version": "0.3.176",
+    "version": "0.3.177",
     "edition": "standard",
     "channel": "stable",
-    "releasedAt": "2026-11-19T12:21:12Z",
+    "releasedAt": "2026-11-19T13:40:15Z",
     "mandatory": false,
     "minShell": "0.3.0",
     "notes": [
-      "藏宝阁号价通查链路升级：登录拉取角色详情，外观区段解析按页面结构重写",
-      "角色消耗一站算数值口径整改：潜能果/转门派/仙玉折算与等级分段对齐",
-      "装备计算与工艺、工具数据校正",
-      "副本攻略补充与界面细节修复"
+      "活动查询与常用语速览合并为同一入口",
+      "新增战斗内召唤召唤兽快捷键 Alt+~"
     ],
     "layers": {
       "asar": {
         "format": "asar",
-        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.176-asar.asar",
+        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.177-asar.asar",
         "urls": [
-          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.176-asar.asar",
-          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.176-asar.asar",
-          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.176-asar.asar",
-          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.176-asar.asar"
+          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.177-asar.asar",
+          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.177-asar.asar",
+          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.177-asar.asar",
+          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.177-asar.asar"
         ],
-        "size": 11544049,
-        "sha256": "8d46a9d058f14ea4848acd85f33064678f0818f4ce74f0735230f4fdb82673bb"
+        "size": 11531710,
+        "sha256": "c22609b7699517613b693ffa0d85f5a519a1673c825b323c2a25ee4d7dc96829"
       }
     }
   },
@@ -145,6 +143,13 @@
       "size": 11544049,
       "sha256": "8d46a9d058f14ea4848acd85f33064678f0818f4ce74f0735230f4fdb82673bb",
       "at": "2026-11-19T12:21:12Z"
+    },
+    {
+      "version": "0.3.177",
+      "layer": "asar",
+      "size": 11531710,
+      "sha256": "c22609b7699517613b693ffa0d85f5a519a1673c825b323c2a25ee4d7dc96829",
+      "at": "2026-11-19T13:40:15Z"
     }
   ]
 }
