@@ -1,30 +1,30 @@
 {
   "appId": "com.nanshan.xyqtoolbox",
   "channel": "stable",
-  "updatedAt": "2026-11-19T13:40:15Z",
+  "updatedAt": "2026-11-20T15:09:27Z",
   "latest": {
-    "version": "0.3.177",
+    "version": "0.3.178",
     "edition": "standard",
     "channel": "stable",
-    "releasedAt": "2026-11-19T13:40:15Z",
+    "releasedAt": "2026-11-20T15:09:27Z",
     "mandatory": false,
     "minShell": "0.3.0",
     "notes": [
-      "活动查询与常用语速览合并为同一入口",
-      "新增战斗内召唤召唤兽快捷键 Alt+~"
+      "侧栏抖音码换为梗图",
+      "取消该图抖音外链"
     ],
     "layers": {
       "asar": {
         "format": "asar",
-        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.177-asar.asar",
+        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.178-asar.asar",
         "urls": [
-          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.177-asar.asar",
-          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.177-asar.asar",
-          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.177-asar.asar",
-          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.177-asar.asar"
+          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.178-asar.asar",
+          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.178-asar.asar",
+          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.178-asar.asar",
+          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.178-asar.asar"
         ],
-        "size": 11531710,
-        "sha256": "c22609b7699517613b693ffa0d85f5a519a1673c825b323c2a25ee4d7dc96829"
+        "size": 11754382,
+        "sha256": "9142958ef38eb701986708edfc55f46cc6f49cba2b79a6858be5aa84d99573be"
       }
     }
   },
@@ -150,6 +150,13 @@
       "size": 11531710,
       "sha256": "c22609b7699517613b693ffa0d85f5a519a1673c825b323c2a25ee4d7dc96829",
       "at": "2026-11-19T13:40:15Z"
+    },
+    {
+      "version": "0.3.178",
+      "layer": "asar",
+      "size": 11754382,
+      "sha256": "9142958ef38eb701986708edfc55f46cc6f49cba2b79a6858be5aa84d99573be",
+      "at": "2026-11-20T15:09:27Z"
     }
   ]
 }
