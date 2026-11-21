@@ -1,12 +1,12 @@
 {
   "appId": "com.nanshan.xyqtoolbox",
   "channel": "stable",
-  "updatedAt": "2026-11-21T17:46:53Z",
+  "updatedAt": "2026-11-21T17:53:39Z",
   "latest": {
     "version": "0.3.179",
     "edition": "standard",
     "channel": "stable",
-    "releasedAt": "2026-11-21T17:46:53Z",
+    "releasedAt": "2026-11-21T17:53:39Z",
     "mandatory": false,
     "minShell": "0.3.63",
     "fallback": {
@@ -19,7 +19,8 @@
       "更新时自动退役过期overlay界面层",
       "新版安装包改为asar单层",
       "增加下载包sha256校验",
-      "版本判断以实际生效层为准"
+      "版本判断以实际生效层为准",
+      "修复asar备份EISDIR"
     ],
     "layers": {
       "asar": {
@@ -31,8 +32,8 @@
           "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.179-asar.asar",
           "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.179-asar.asar"
         ],
-        "size": 11761684,
-        "sha256": "641b7310f63e6b282c9b689b9371e249084a2fad05aff472c24eb86b7619d04b"
+        "size": 11761814,
+        "sha256": "10946528069d59a5c097bfa353cc4933b4f89e5096c49ba6014dfc78aa70c8d0"
       }
     }
   },
@@ -40,9 +41,9 @@
     {
       "version": "0.3.179",
       "layer": "asar",
-      "size": 11761684,
-      "sha256": "641b7310f63e6b282c9b689b9371e249084a2fad05aff472c24eb86b7619d04b",
-      "at": "2026-11-21T17:46:53Z"
+      "size": 11761814,
+      "sha256": "10946528069d59a5c097bfa353cc4933b4f89e5096c49ba6014dfc78aa70c8d0",
+      "at": "2026-11-21T17:53:39Z"
     }
   ]
 }
