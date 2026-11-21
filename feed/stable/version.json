@@ -8,7 +8,7 @@
     "channel": "stable",
     "releasedAt": "2026-11-20T15:09:27Z",
     "mandatory": false,
-    "minShell": "0.3.0",
+    "minShell": "0.3.63",
     "notes": [
       "侧栏抖音码换为梗图",
       "取消该图抖音外链"
@@ -26,6 +26,11 @@
         "size": 11754382,
         "sha256": "9142958ef38eb701986708edfc55f46cc6f49cba2b79a6858be5aa84d99573be"
       }
+    },
+    "fallback": {
+      "url": "https://wwaxd.lanzout.com/b0fquk60d",
+      "password": "8888",
+      "tip": "自动更新失败的机器，请下载对应版本的完整包或 app.asar 单文件，按说明覆盖后重开软件"
     }
   },
   "history": [
