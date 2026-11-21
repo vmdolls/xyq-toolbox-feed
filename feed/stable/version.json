@@ -1,167 +1,48 @@
 {
   "appId": "com.nanshan.xyqtoolbox",
   "channel": "stable",
-  "updatedAt": "2026-11-20T15:09:27Z",
+  "updatedAt": "2026-11-21T17:46:53Z",
   "latest": {
-    "version": "0.3.178",
+    "version": "0.3.179",
     "edition": "standard",
     "channel": "stable",
-    "releasedAt": "2026-11-20T15:09:27Z",
+    "releasedAt": "2026-11-21T17:46:53Z",
     "mandatory": false,
     "minShell": "0.3.63",
-    "notes": [
-      "侧栏抖音码换为梗图",
-      "取消该图抖音外链"
-    ],
-    "layers": {
-      "asar": {
-        "format": "asar",
-        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.178-asar.asar",
-        "urls": [
-          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.178-asar.asar",
-          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.178-asar.asar",
-          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.178-asar.asar",
-          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.178-asar.asar"
-        ],
-        "size": 11754382,
-        "sha256": "9142958ef38eb701986708edfc55f46cc6f49cba2b79a6858be5aa84d99573be"
-      }
-    },
     "fallback": {
       "url": "https://wwaxd.lanzout.com/b0fquk60d",
       "password": "8888",
       "tip": "自动更新失败的机器，请下载对应版本的完整包或 app.asar 单文件，按说明覆盖后重开软件"
+    },
+    "notes": [
+      "修复老客户端更新后界面不生效",
+      "更新时自动退役过期overlay界面层",
+      "新版安装包改为asar单层",
+      "增加下载包sha256校验",
+      "版本判断以实际生效层为准"
+    ],
+    "layers": {
+      "asar": {
+        "format": "asar",
+        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.179-asar.asar",
+        "urls": [
+          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.179-asar.asar",
+          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.179-asar.asar",
+          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.179-asar.asar",
+          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.179-asar.asar"
+        ],
+        "size": 11761684,
+        "sha256": "641b7310f63e6b282c9b689b9371e249084a2fad05aff472c24eb86b7619d04b"
+      }
     }
   },
   "history": [
     {
-      "version": "0.3.63",
-      "size": 1462732,
-      "sha256": "32bbfd9bf0f99feb578016641afc670c9174c7dee8a3fc1d4945d42ca4642277",
-      "at": "2026-10-28T19:54:54.049Z"
-    },
-    {
-      "version": "0.3.64",
-      "size": 1463932,
-      "sha256": "f2943f500efc633e7dea6ca00256d65d0fd3e8c3ede38119342f23f6a785e255",
-      "at": "2026-10-28T20:54:24.418Z"
-    },
-    {
-      "version": "0.3.65",
-      "size": 1463927,
-      "sha256": "d17fdb9bf23b10318f8f4f59f11ca45aa5e83fac4cab78d0db478e804863818e",
-      "at": "2026-10-29T08:52:26.532Z"
-    },
-    {
-      "version": "0.3.67",
-      "size": 1465446,
-      "sha256": "f6197cd11a6a291b7039b36b958a7da4075b2066b7868363d2500f2c3b36868d",
-      "at": "2026-10-29T12:05:15.128Z"
-    },
-    {
-      "version": "0.3.68",
+      "version": "0.3.179",
       "layer": "asar",
-      "size": 4719258,
-      "sha256": "d9fed8acee23efeab091a27dc7df2cb9db7058aaba8b18e1ae6552be9321ddea",
-      "at": "2026-10-30T04:44:49.855Z"
-    },
-    {
-      "version": "0.3.75",
-      "layer": "asar",
-      "size": 4792189,
-      "sha256": "18cfdaa75bd62fb38d7859e9e2bc96d6792f49bc802c8573aa19b626b0ecd872",
-      "at": "2026-10-30T14:07:59.136Z"
-    },
-    {
-      "version": "0.3.84",
-      "layer": "asar",
-      "size": 4851041,
-      "sha256": "471a52e1c36e7b8515e20b540e278d70ffff8890b728daa9961b946bdd0c07e9",
-      "at": "2026-10-31T09:27:07Z"
-    },
-    {
-      "version": "0.3.85",
-      "layer": "asar",
-      "size": 5010512,
-      "sha256": "3084cabfe67cff75c3e32fe0b0fa67b028b89d7dc60b8d8f0b80c4412eb281a5",
-      "at": "2026-11-03T03:00:42Z"
-    },
-    {
-      "version": "0.3.142",
-      "layer": "asar",
-      "size": 9801358,
-      "sha256": "e2ff50f934c919da12ef42490e1971313be8880730be1534bb3794c082eed237",
-      "at": "2026-11-06T04:19:11Z"
-    },
-    {
-      "version": "0.3.144",
-      "layer": "asar",
-      "size": 9820030,
-      "sha256": "416e5f9248204123bab5ecca6876e399f62da0a8e6345a1cb34626394797c724",
-      "at": "2026-11-07T18:56:44Z"
-    },
-    {
-      "version": "0.3.145",
-      "layer": "asar",
-      "size": 9841064,
-      "sha256": "06171962c1c896bb84b7cef2f3f925b7c365f3d227be136b6b3649335fe6d9d6",
-      "at": "2026-11-15T10:24:54Z"
-    },
-    {
-      "version": "0.3.147",
-      "layer": "asar",
-      "size": 9842820,
-      "sha256": "797a9b053fcacffeec5f0967b78c2668072ca547b9949848c7681c8b31273f31",
-      "at": "2026-11-15T12:57:18Z"
-    },
-    {
-      "version": "0.3.159",
-      "layer": "asar",
-      "size": 9889811,
-      "sha256": "71ac22e28691cb174df79c17a9f63c5116c525e4aab390ecacb6f70572110e38",
-      "at": "2026-11-16T13:03:51Z"
-    },
-    {
-      "version": "0.3.170",
-      "layer": "asar",
-      "size": 11355888,
-      "sha256": "409c41ab8c7564b7ef42b0fb6e50968c45c11614cd437e5f34b28aee98a82582",
-      "at": "2026-11-16T21:02:36Z"
-    },
-    {
-      "version": "0.3.171",
-      "layer": "asar",
-      "size": 11407580,
-      "sha256": "a22b68afd58f8ae32a91bbd594dc89075c1aad6349157a4c876f41bcc1e4a08f",
-      "at": "2026-11-17T23:15:13Z"
-    },
-    {
-      "version": "0.3.175",
-      "layer": "asar",
-      "size": 11423522,
-      "sha256": "e0fad85edd16498f9b3682bbdfdb1bac4c7d09b72605d10aa634fc98f0baac06",
-      "at": "2026-11-18T01:12:34Z"
-    },
-    {
-      "version": "0.3.176",
-      "layer": "asar",
-      "size": 11544049,
-      "sha256": "8d46a9d058f14ea4848acd85f33064678f0818f4ce74f0735230f4fdb82673bb",
-      "at": "2026-11-19T12:21:12Z"
-    },
-    {
-      "version": "0.3.177",
-      "layer": "asar",
-      "size": 11531710,
-      "sha256": "c22609b7699517613b693ffa0d85f5a519a1673c825b323c2a25ee4d7dc96829",
-      "at": "2026-11-19T13:40:15Z"
-    },
-    {
-      "version": "0.3.178",
-      "layer": "asar",
-      "size": 11754382,
-      "sha256": "9142958ef38eb701986708edfc55f46cc6f49cba2b79a6858be5aa84d99573be",
-      "at": "2026-11-20T15:09:27Z"
+      "size": 11761684,
+      "sha256": "641b7310f63e6b282c9b689b9371e249084a2fad05aff472c24eb86b7619d04b",
+      "at": "2026-11-21T17:46:53Z"
     }
   ]
 }
