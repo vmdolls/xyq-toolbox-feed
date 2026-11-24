@@ -1,12 +1,12 @@
 {
   "appId": "com.nanshan.xyqtoolbox",
   "channel": "stable",
-  "updatedAt": "2026-11-24T13:02:41Z",
+  "updatedAt": "2026-11-24T14:55:47Z",
   "latest": {
-    "version": "0.3.184",
+    "version": "0.3.186",
     "edition": "standard",
     "channel": "stable",
-    "releasedAt": "2026-11-24T13:02:41Z",
+    "releasedAt": "2026-11-24T14:55:47Z",
     "mandatory": false,
     "minShell": "0.3.63",
     "fallback": {
@@ -15,25 +15,20 @@
       "tip": "自动更新失败的机器，请下载对应版本的完整包或 app.asar 单文件，按说明覆盖后重开软件"
     },
     "notes": [
-      "优化·熔炼测算功能",
-      "优化·转服物品限制查询功能",
-      "优化·整合资料部分内容",
-      "新增·快捷短语功能（支持本地输入法快捷短语管理）",
-      "新增·内置梦幻西游常用输入法词库",
-      "优化·人物属性模拟面板UI"
+      "修正副本攻略错误"
     ],
     "layers": {
       "asar": {
         "format": "asar",
-        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.184-asar.asar",
+        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.186-asar.asar",
         "urls": [
-          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.184-asar.asar",
-          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.184-asar.asar",
-          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.184-asar.asar",
-          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.184-asar.asar"
+          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.186-asar.asar",
+          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.186-asar.asar",
+          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.186-asar.asar",
+          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.186-asar.asar"
         ],
-        "size": 13557549,
-        "sha256": "0b563a3840af3050479f9c96635e66c5a713ed89b568b7595aa0685a1e2f1762"
+        "size": 13564926,
+        "sha256": "39496be46a59ebccd81839285ed00c07b0ce652a4bba78ece7cb6af42c259a84"
       }
     }
   },
@@ -72,6 +67,13 @@
       "size": 13557549,
       "sha256": "0b563a3840af3050479f9c96635e66c5a713ed89b568b7595aa0685a1e2f1762",
       "at": "2026-11-24T13:02:41Z"
+    },
+    {
+      "version": "0.3.186",
+      "layer": "asar",
+      "size": 13564926,
+      "sha256": "39496be46a59ebccd81839285ed00c07b0ce652a4bba78ece7cb6af42c259a84",
+      "at": "2026-11-24T14:55:47Z"
     }
   ]
 }
