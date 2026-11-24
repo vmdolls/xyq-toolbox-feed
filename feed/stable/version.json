@@ -1,12 +1,12 @@
 {
   "appId": "com.nanshan.xyqtoolbox",
   "channel": "stable",
-  "updatedAt": "2026-11-24T15:14:48Z",
+  "updatedAt": "2026-11-24T15:21:19Z",
   "latest": {
-    "version": "0.3.187",
+    "version": "0.3.188",
     "edition": "standard",
     "channel": "stable",
-    "releasedAt": "2026-11-24T15:14:48Z",
+    "releasedAt": "2026-11-24T15:21:19Z",
     "mandatory": false,
     "minShell": "0.3.63",
     "fallback": {
@@ -20,15 +20,15 @@
     "layers": {
       "asar": {
         "format": "asar",
-        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.187-asar.asar",
+        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.188-asar.asar",
         "urls": [
-          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.187-asar.asar",
-          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.187-asar.asar",
-          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.187-asar.asar",
-          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.187-asar.asar"
+          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.188-asar.asar",
+          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.188-asar.asar",
+          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.188-asar.asar",
+          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.188-asar.asar"
         ],
-        "size": 13564565,
-        "sha256": "f9b848281fb04be73dc257979684d302bc2c5c382094a019fc31b13b30272a28"
+        "size": 13565024,
+        "sha256": "07858d8cdc261127b8f47590a8ccce4846465cebecbea8f1ceb438f625e9ccd7"
       }
     }
   },
@@ -81,6 +81,13 @@
       "size": 13564565,
       "sha256": "f9b848281fb04be73dc257979684d302bc2c5c382094a019fc31b13b30272a28",
       "at": "2026-11-24T15:14:48Z"
+    },
+    {
+      "version": "0.3.188",
+      "layer": "asar",
+      "size": 13565024,
+      "sha256": "07858d8cdc261127b8f47590a8ccce4846465cebecbea8f1ceb438f625e9ccd7",
+      "at": "2026-11-24T15:21:19Z"
     }
   ]
 }
