@@ -1,12 +1,12 @@
 {
   "appId": "com.nanshan.xyqtoolbox",
   "channel": "stable",
-  "updatedAt": "2026-11-24T15:30:22Z",
+  "updatedAt": "2026-11-26T19:20:19Z",
   "latest": {
-    "version": "0.3.189",
+    "version": "0.3.203",
     "edition": "standard",
     "channel": "stable",
-    "releasedAt": "2026-11-24T15:30:22Z",
+    "releasedAt": "2026-11-26T19:20:19Z",
     "mandatory": false,
     "minShell": "0.3.63",
     "fallback": {
@@ -15,20 +15,20 @@
       "tip": "自动更新失败的机器，请下载对应版本的完整包或 app.asar 单文件，按说明覆盖后重开软件"
     },
     "notes": [
-      "修正再战天罡副本攻略"
+      "修复一部分已知问题"
     ],
     "layers": {
       "asar": {
         "format": "asar",
-        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.189-asar.asar",
+        "url": "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.203-asar.asar",
         "urls": [
-          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.189-asar.asar",
-          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.189-asar.asar",
-          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.189-asar.asar",
-          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.189-asar.asar"
+          "https://mhtools-1301361384.cos.ap-guangzhou.myqcloud.com/stable/pkg/v0.3.203-asar.asar",
+          "https://xyq-toolbox-feed.pages.dev/stable/pkg/v0.3.203-asar.asar",
+          "https://cdn.jsdelivr.net/gh/vmdolls/xyq-toolbox-feed@main/feed/stable/pkg/v0.3.203-asar.asar",
+          "https://raw.githubusercontent.com/vmdolls/xyq-toolbox-feed/main/feed/stable/pkg/v0.3.203-asar.asar"
         ],
-        "size": 13565172,
-        "sha256": "c0ce79469096bf9ec218f13d5510ac9f24144f4033b17ca1ff3be9579708b947"
+        "size": 13717653,
+        "sha256": "5c5fdb6d90638e6a7d97be01a441d07c78b06861577047d46967569f8bb84ccd"
       }
     }
   },
@@ -95,6 +95,13 @@
       "size": 13565172,
       "sha256": "c0ce79469096bf9ec218f13d5510ac9f24144f4033b17ca1ff3be9579708b947",
       "at": "2026-11-24T15:30:22Z"
+    },
+    {
+      "version": "0.3.203",
+      "layer": "asar",
+      "size": 13717653,
+      "sha256": "5c5fdb6d90638e6a7d97be01a441d07c78b06861577047d46967569f8bb84ccd",
+      "at": "2026-11-26T19:20:19Z"
     }
   ]
 }
